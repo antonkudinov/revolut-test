@@ -15,6 +15,8 @@ Build with Maven. Create all-in-one jar with:
 Standalone application on 8081 port:
 > java -jar target/revolut-test-1.0-SNAPSHOT.jar
 
+
+# Usage:
 Add account
 
 POST:

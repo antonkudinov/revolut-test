@@ -1,6 +1,7 @@
 # revolut test exercise
 
 [![Build Status](https://travis-ci.org/antonkudinov/revolut-test.svg?branch=master)](https://travis-ci.org/antonkudinov/revolut-test)
+[![Coverage Status](https://coveralls.io/repos/github/antonkudinov/revolut-test/badge.svg?branch=master)](https://coveralls.io/github/antonkudinov/revolut-test?branch=master)
 
 Project use:
 - Jetty as embedded web server / servlet container

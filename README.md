@@ -14,3 +14,34 @@ Build with Maven. Create all-in-one jar with:
 
 Standalone application on 8081 port:
 > java -jar target/revolut-test-1.0-SNAPSHOT.jar
+
+Add account
+
+POST:
+
+> {
+  "Account": {
+    "number": 1,
+    "balance": "1099.77"
+  }
+}
+
+to:
+
+> localhost:8081/accounts
+
+Add payment
+
+POST:
+
+> {
+  "Payment": {
+    "withdrawalAccountNumber": 1,
+    "depositAccountNumber": 2,
+    "amount": "101.12"
+  }
+}
+
+to:
+
+> localhost:8081/payments

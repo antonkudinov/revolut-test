@@ -1,0 +1,7 @@
+{
+  "Payment": {
+    "withdrawalAccountNumber": 1,
+    "depositAccountNumber": 2,
+    "amount": "101.12"
+  }
+}

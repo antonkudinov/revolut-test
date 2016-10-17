@@ -1,5 +1,7 @@
 # revolut test exercise
 
+[![Build Status](https://travis-ci.org/antonkudinov/revolut-test.svg?branch=master)](https://travis-ci.org/antonkudinov/revolut-test)
+
 Project use:
 - Jetty as embedded web server / servlet container
 - Jersey as REST framework
